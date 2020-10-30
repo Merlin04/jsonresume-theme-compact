@@ -1,0 +1,27 @@
+{
+  "name": "jsonresume-theme-compact",
+  "version": "1.0.0",
+  "description": "Compact JSON Resume theme",
+  "main": "index.js",
+  "repository": "https://github.com/Merlin04/jsonresume-theme-compact",
+  "author": "merlin04 <Merlin04@users.noreply.github.com>",
+  "license": "gplv3",
+  "private": false,
+  "scripts": {
+    "start": "fish -c \"yarn tsc; and charge serve build\"",
+    "build-types": "fish -c \"cd src; and wget https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json; and json2ts schema.json > jsonresume.d.ts; and rm schema.json\""
+  },
+  "dependencies": {
+    "@emotion/styled": "^10.0.27",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@static/charge": "^1.7.0",
+    "@types/react": "^16.9.55",
+    "@types/react-dom": "^16.9.9",
+    "dotenv": "^8.2.0",
+    "json-schema-to-typescript": "^9.1.1",
+    "ts-node": "^9.0.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.0.5"
+  }
+}
