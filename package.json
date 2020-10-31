@@ -1,7 +1,7 @@
 {
   "name": "jsonresume-theme-compact",
   "version": "1.0.0",
-  "description": "Compact JSON Resume theme",
+  "description": "Compact Material UI JSON Resume theme",
   "main": "index.js",
   "repository": "https://github.com/Merlin04/jsonresume-theme-compact",
   "author": "merlin04 <Merlin04@users.noreply.github.com>",
