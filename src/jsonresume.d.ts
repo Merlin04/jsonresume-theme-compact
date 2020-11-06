@@ -301,6 +301,7 @@ export interface ResumeSchema {
      *  e.g. 'volunteering', 'presentation', 'talk', 'application', 'conference'
      */
     type?: string;
+    hideOnPrint?: boolean;
     [k: string]: unknown;
   }[];
   /**
